@@ -12,7 +12,7 @@ import NotFound from './components/NotFound'
 import './App.css'
 
 class App extends Component {
-  state = {savedVideosList: [], isDark: true, isSidebarVisible: false}
+  state = {savedVideosList: [], isDark: false, isSidebarVisible: false}
 
   toggleTheme = () => {
     this.setState(prevState => ({isDark: !prevState.isDark}))
